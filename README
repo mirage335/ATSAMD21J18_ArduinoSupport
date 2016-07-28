@@ -1,7 +1,7 @@
 
 _Problem_
 
-The LED does not blink as expected when programmed by the Arduino IDE. Only programming with Atmel Studio 6/7 works. Best guess is a modified Arduino bootloader is required to accommodate the lack of a discrete timing crystal.
+The LED does not blink as expected when programmed by the Arduino IDE. Only programming with Atmel Studio 6/7 works. Best guess, modified Arduino bootloader and sketch startup code are required to accommodate the lack of a discrete timing crystal. Reconfiguration of USB clocking source may also prove necessary.
 
 Schematic provided as ATSAMD21J18_Minimal_Schematic.pdf. Atmel Studio example "LED_TOGGLE1/Debug/LED_TOGGLE1.hex" works, uploaded by SAM-ICE. Arduino example "sketch/Release/sketch.elf" should, but does not, work, regardless of upload method.
 
