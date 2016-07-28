@@ -36,7 +36,9 @@ _Debugging Procedure_
 22) Returned to original hardware.
 23) Uploaded Arduino Zero bootloader. Non-functional, no USB presence.
 24) Uploaded Atmel SAM-BA bootloaders.
-25) Uploaded corrected sketch through Arduino IDE, through USB, just like an Arduino Zero. Still, no data received.
+25) Uploaded corrected sketch through Arduino IDE integrated under Atmel Studio 7, through USB, just like an Arduino Zero. Still, no data received.
+
+26) Compiled Arduino Zero bootloader, uploaded, debugged, with Atmel Studio 7. Again, does not present a USB interface, although the debugger shows code is running.
 
 
 _Sketch_
@@ -244,4 +246,6 @@ https://cdn-learn.adafruit.com/assets/assets/000/030/929/medium800/adafruit_prod
 
 http://forum.sodaq.com/t/use-arduino-ide-1-6-6-for-autonomo/25
 http://downloads.sodaq.net/package_sodaq_index.json
+
+https://www.youtube.com/watch?v=HE9Wrq-Gvrc
 
