@@ -41,7 +41,11 @@ _Debugging Procedure_
 26) Compiled Arduino Zero bootloader for ATSMD21J18A target, uploaded, debugged, with Atmel Studio 7. Again, does not present a USB interface, although the debugger shows code is running.
 
 27) Once again, tried uploading the sketch code through SAM-ICE programmer, without any results. This is strange, considering such an approach usually worked well with the AVR based ATMega32U4.
+28) Uploaded working sketch directly to "Arduino M0" through SAM-ICE programmer, using Arduino IDE integrated into Atmel Studio 7. Failure and loss of USB presence contradicts success on the forums.
+29) Reaffirmed operation of "Arduino M0" through Arduino Zero IDE and bootloader through Atmel Studio 7 integration. Notably, power cycling or reset button press was occasionally necessary to start the sketch.
+30) Reaffirmed directly uploading sketch hex file with SAM-ICE to "Arduino M0" does not work.
 
+31) Reaffirmed directly uploading sketch to original ATSAMD21J hardware does not work.
 
 _Sketch_
 
@@ -250,4 +254,6 @@ http://forum.sodaq.com/t/use-arduino-ide-1-6-6-for-autonomo/25
 http://downloads.sodaq.net/package_sodaq_index.json
 
 https://www.youtube.com/watch?v=HE9Wrq-Gvrc
+
+http://forum.arduino.cc/index.php?topic=413400.0
 

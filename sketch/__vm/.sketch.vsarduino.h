@@ -8,7 +8,6 @@
 	Hardware: Arduino/Genuino Zero (Native USB Port), Platform=samd, Package=arduino
 */
 
-#define _VMDEBUG 1
 #define ARDUINO 106010
 #define ARDUINO_MAIN
 #define F_CPU 48000000L
@@ -22,7 +21,6 @@
 #define USB_VID 0x2341
 #define USB_PID 0x804d
 #define USBCON
- #include <VM_DBG/VM_DBG.h>
 
 //
 //
