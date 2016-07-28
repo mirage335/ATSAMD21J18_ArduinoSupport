@@ -1,7 +1,7 @@
 
 _Problem_
 
-The LED does not blink as expected when programmed by the Arduino IDE. Only programming with Atmel Studio 6/7 works. Best guess, modified Arduino bootloader and sketch startup code are required to accommodate the lack of a discrete timing crystal. Reconfiguration of USB clocking source may also prove necessary.
+The LED does not blink as expected when programmed by the Arduino IDE. Only programming with Atmel Studio 6/7 works. Best guess, modified Arduino bootloader and sketch startup code are required to accommodate the lack of a discrete timing crystal. Reconfiguration of USB clocking source may also prove necessary. This explanation is consitent with all observed behavior, including the SODAQ bootloader functionality, as well as subsequent lack of sketch functionality.
 
 Schematic provided as ATSAMD21J18_Minimal_Schematic.pdf. Atmel Studio example "LED_TOGGLE1/Debug/LED_TOGGLE1.hex" works, uploaded by SAM-ICE. Arduino example "sketch/Release/sketch.elf" should, but does not, work, regardless of upload method.
 
@@ -52,6 +52,8 @@ _Debugging Procedure_
 34) Retried same procdure using SODAQ Autonomo board definition. Same result.
 
 35) Clock mechanism is apparently discovered to be set by both bootloader and sketch, as documented at https://forum.arduino.cc/index.php?topic=331052.0 . Correctly configuring the clock in both cases is now a high priority.
+
+36) Bootloader from SODAQ found to use OSC8M, as shown at https://github.com/SodaqMoja/SodaqCore-samd/blob/autonomo/bootloaders/zero/main.c#L58 . This explains why that bootloader works, then fails upon loading an Arduino sketch, which even for the SODAQ boards, is configured to rely on an external 32kHz crystal.
 
 _Sketch_
 
