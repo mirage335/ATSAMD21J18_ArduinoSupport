@@ -38,7 +38,7 @@ _Debugging Procedure_
 24) Uploaded Atmel SAM-BA bootloaders.
 25) Uploaded corrected sketch through Arduino IDE integrated under Atmel Studio 7, through USB, just like an Arduino Zero. Still, no data received.
 
-26) Compiled Arduino Zero bootloader, uploaded, debugged, with Atmel Studio 7. Again, does not present a USB interface, although the debugger shows code is running.
+26) Compiled Arduino Zero bootloader for ATSMD21J18A target, uploaded, debugged, with Atmel Studio 7. Again, does not present a USB interface, although the debugger shows code is running.
 
 
 _Sketch_
