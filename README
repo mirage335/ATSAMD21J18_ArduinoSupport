@@ -40,6 +40,8 @@ _Debugging Procedure_
 
 26) Compiled Arduino Zero bootloader for ATSMD21J18A target, uploaded, debugged, with Atmel Studio 7. Again, does not present a USB interface, although the debugger shows code is running.
 
+27) Once again, tried uploading the sketch code through SAM-ICE programmer, without any results. This is strange, considering such an approach usually worked well with the AVR based ATMega32U4.
+
 
 _Sketch_
 
