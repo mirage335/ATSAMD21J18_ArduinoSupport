@@ -51,6 +51,8 @@ _Debugging Procedure_
 33) Uploaded sketch directly from Arduino IDE through SODAQ bootloader. Lost USB presence, non-functional.
 34) Retried same procdure using SODAQ Autonomo board definition. Same result.
 
+35) Clock mechanism is apparently discovered to be set by both bootloader and sketch, as documented at https://forum.arduino.cc/index.php?topic=331052.0 . Correctly configuring the clock in both cases is now a high priority.
+
 _Sketch_
 
 
@@ -265,4 +267,7 @@ http://downloads.sodaq.net/package_sodaq_index.json
 https://www.youtube.com/watch?v=HE9Wrq-Gvrc
 
 http://forum.arduino.cc/index.php?topic=413400.0
+
+
+https://forum.arduino.cc/index.php?topic=331052.0
 
