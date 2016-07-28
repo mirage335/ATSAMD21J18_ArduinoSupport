@@ -27,6 +27,9 @@ _Debugging Procedure_
 15) Uploaded Atmel SAM-BA bootloader. Then rebuilt and executed original LED blink project, still using SAM-ICE. Still works.
 16) Built and uploaded LED blink Arduino Zero sketch with Atmel Studio 7, through "Native USB Port", having uploaded SAM-BA bootloader. Connected to serial port. No data or debugging information.
 17) Stripped out pin toggle code from sketch, leaving just Serial/SerialUSB statements. Still, no data received.
+18) Uploaded Arduino Zero bootloader to an "Arduino M0" board. Uploaded sketch with "Arduino.cc" IDE. Still, no data received.
+19) Essentially restored "Arduino M0" firmware. Uploaded sketch with "Arduino.org" IDE. Still, no data received. Sketch itself now considered highly suspect.
+
 
 _Sketch_
 
