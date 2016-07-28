@@ -47,6 +47,10 @@ _Debugging Procedure_
 
 31) Reaffirmed directly uploading sketch to original ATSAMD21J hardware does not work.
 
+32) Uploaded SODAQ bootloader, USB presence detected as Arduino SA device, as normal for Arduino Zero bootloader.
+33) Uploaded sketch directly from Arduino IDE through SODAQ bootloader. Lost USB presence, non-functional.
+34) Retried same procdure using SODAQ Autonomo board definition. Same result.
+
 _Sketch_
 
 
