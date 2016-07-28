@@ -190,8 +190,11 @@ ATSAMD21J18/ATSAMD21G18 - https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards
 _Comparable_
 SparkFun SAMD21 Breakout - https://github.com/sparkfun/SAMD21_Dev_Breakout
 SparkFun SAMD21 Breakout Design/Firmware - https://github.com/sparkfun/SAMD21_Dev_Breakout
+
 Arduino Zero - https://www.arduino.cc/en/Main/ArduinoBoardZero
 Arduino Zero Cores/Bootloaders - https://github.com/arduino/ArduinoCore-samd
+
+Atmel SAMD21J18 SAM-BA Bootloader - http://www.atmel.com/images/Atmel-42366-SAM-BA-Bootloader-for-SAM-D21_ApplicationNote_AT07175.zip
 
 _Reference_
 https://hackaday.io/project/6276-arduino-zero-sam-d20d21-breakout-board
