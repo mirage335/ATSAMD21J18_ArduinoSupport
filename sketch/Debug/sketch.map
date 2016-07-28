@@ -22,6 +22,8 @@ C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(
                               C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o (Print::print(char const*))
 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
                               C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o) (tickReset)
+C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                              C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o (Uart::begin(unsigned long))
 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
                               C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o (Serial_::begin(unsigned long))
 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
@@ -30,14 +32,12 @@ C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(
                               C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o (Serial)
 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(abi.cpp.o)
                               C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o) (__cxa_pure_virtual)
-C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                              C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o) (SERCOM::SERCOM(Sercom*))
-C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                              C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o) (Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad))
-C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
-                              C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o) (PluggableUSB_::getInterface(unsigned char*))
 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
                               C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o) (RingBuffer::RingBuffer())
+C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                              C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o) (SERCOM::SERCOM(Sercom*))
+C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
+                              C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o) (PluggableUSB_::getInterface(unsigned char*))
 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_fpclassify.o)
                               C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o) (__fpclassifyd)
 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
@@ -310,6 +310,13 @@ Discarded input sections
  .text          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
  .data          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
  .bss           0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
+ .group         0x00000000        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .group         0x00000000        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .text          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .data          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .bss           0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .rodata._ZTV6Stream
+                0x00000000       0x20 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
  .text          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
  .data          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
  .bss           0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
@@ -377,6 +384,13 @@ Discarded input sections
  .ARM.attributes
                 0x00000000       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(abi.cpp.o)
  .debug_frame   0x00000000       0x30 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(abi.cpp.o)
+ .text          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .data          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .bss           0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .text._ZN10RingBuffer9nextIndexEi
+                0x00000000        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .text._ZN10RingBuffer6isFullEv
+                0x00000000       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
  .text          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
  .data          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
  .bss           0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
@@ -462,13 +476,6 @@ Discarded input sections
                 0x00000000       0x38 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
  .text._ZN6SERCOM14initMasterWIREEm
                 0x00000000       0x38 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
- .group         0x00000000        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .group         0x00000000        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .text          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .data          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .bss           0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .rodata._ZTV6Stream
-                0x00000000       0x20 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
  .text          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
  .data          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
  .bss           0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
@@ -476,13 +483,6 @@ Discarded input sections
                 0x00000000       0x60 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
  .text._ZN13PluggableUSB_C2Ev
                 0x00000000        0xe C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
- .text          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
- .data          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
- .bss           0x00000000        0x0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
- .text._ZN10RingBuffer9nextIndexEi
-                0x00000000        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
- .text._ZN10RingBuffer6isFullEv
-                0x00000000       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
  .text          0x00000000        0x0 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_fpclassify.o)
  .data          0x00000000        0x0 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_fpclassify.o)
  .bss           0x00000000        0x0 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_fpclassify.o)
@@ -922,423 +922,421 @@ END GROUP
 LOAD c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtend.o
 LOAD c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
 
-.text           0x00002000     0x23fc
+.text           0x00002000     0x2404
  *(.isr_vector)
  .isr_vector    0x00002000       0xb0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
                 0x00002000                exception_table
  *(.text*)
  .text          0x000020b0       0x60 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
- .text.setup    0x00002110       0x40 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
-                0x00002110                setup
- .text.loop     0x00002150       0xcc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
-                0x00002150                loop
+ .text.loop     0x00002110       0xcc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
+                0x00002110                loop
+ .text.setup    0x000021dc       0x50 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
+                0x000021dc                setup
  .text._ZN16VisualMicroDebug14outPacketStartEb
-                0x0000221c       0x24 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
-                0x0000221c                VisualMicroDebug::outPacketStart(bool)
+                0x0000222c       0x24 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+                0x0000222c                VisualMicroDebug::outPacketStart(bool)
  .text._ZN16VisualMicroDebug14outPacketStartEv
-                0x00002240        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
-                0x00002240                VisualMicroDebug::outPacketStart()
+                0x00002250        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+                0x00002250                VisualMicroDebug::outPacketStart()
  .text._ZN16VisualMicroDebug5beginEP7Serial_m
-                0x0000224a       0x2e C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
-                0x0000224a                VisualMicroDebug::begin(Serial_*, unsigned long)
+                0x0000225a       0x2e C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+                0x0000225a                VisualMicroDebug::begin(Serial_*, unsigned long)
  .text._ZN16VisualMicroDebug4initEm
-                0x00002278       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
-                0x00002278                VisualMicroDebug::init(unsigned long)
+                0x00002288       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+                0x00002288                VisualMicroDebug::init(unsigned long)
  .text._ZN16VisualMicroDebug16sendContinuedACKEh
-                0x0000228c       0x30 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
-                0x0000228c                VisualMicroDebug::sendContinuedACK(unsigned char)
+                0x0000229c       0x30 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+                0x0000229c                VisualMicroDebug::sendContinuedACK(unsigned char)
  .text._ZN16VisualMicroDebug9breakWaitEh
-                0x000022bc       0x54 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
-                0x000022bc                VisualMicroDebug::breakWait(unsigned char)
+                0x000022cc       0x54 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+                0x000022cc                VisualMicroDebug::breakWait(unsigned char)
  .text._ZN16VisualMicroDebug5startEbb
-                0x00002310       0x18 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
-                0x00002310                VisualMicroDebug::start(bool, bool)
+                0x00002320       0x18 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+                0x00002320                VisualMicroDebug::start(bool, bool)
  .text.Dummy_Handler
-                0x00002328        0x2 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
-                0x00002328                DMAC_Handler
-                0x00002328                HardFault_Handler
-                0x00002328                AC_Handler
-                0x00002328                PendSV_Handler
-                0x00002328                NMI_Handler
-                0x00002328                TC7_Handler
-                0x00002328                SERCOM1_Handler
-                0x00002328                ADC_Handler
-                0x00002328                TCC1_Handler
-                0x00002328                SERCOM2_Handler
-                0x00002328                TCC0_Handler
-                0x00002328                RTC_Handler
-                0x00002328                EIC_Handler
-                0x00002328                TC6_Handler
-                0x00002328                WDT_Handler
-                0x00002328                TC4_Handler
-                0x00002328                TC3_Handler
-                0x00002328                Dummy_Handler
-                0x00002328                PM_Handler
-                0x00002328                SVC_Handler
-                0x00002328                TCC2_Handler
-                0x00002328                EVSYS_Handler
-                0x00002328                SERCOM3_Handler
-                0x00002328                SERCOM4_Handler
-                0x00002328                I2S_Handler
-                0x00002328                NVMCTRL_Handler
-                0x00002328                DAC_Handler
-                0x00002328                PTC_Handler
-                0x00002328                SYSCTRL_Handler
- *fill*         0x0000232a        0x2 
+                0x00002338        0x2 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
+                0x00002338                DMAC_Handler
+                0x00002338                HardFault_Handler
+                0x00002338                AC_Handler
+                0x00002338                PendSV_Handler
+                0x00002338                NMI_Handler
+                0x00002338                TC7_Handler
+                0x00002338                SERCOM1_Handler
+                0x00002338                ADC_Handler
+                0x00002338                TCC1_Handler
+                0x00002338                SERCOM2_Handler
+                0x00002338                TCC0_Handler
+                0x00002338                RTC_Handler
+                0x00002338                EIC_Handler
+                0x00002338                TC6_Handler
+                0x00002338                WDT_Handler
+                0x00002338                TC4_Handler
+                0x00002338                TC3_Handler
+                0x00002338                Dummy_Handler
+                0x00002338                PM_Handler
+                0x00002338                SVC_Handler
+                0x00002338                TCC2_Handler
+                0x00002338                EVSYS_Handler
+                0x00002338                SERCOM3_Handler
+                0x00002338                SERCOM4_Handler
+                0x00002338                I2S_Handler
+                0x00002338                NVMCTRL_Handler
+                0x00002338                DAC_Handler
+                0x00002338                PTC_Handler
+                0x00002338                SYSCTRL_Handler
+ *fill*         0x0000233a        0x2 
  .text.USB_Handler
-                0x0000232c       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
-                0x0000232c                USB_Handler
+                0x0000233c       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
+                0x0000233c                USB_Handler
  .text.Reset_Handler
-                0x00002340       0x58 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
-                0x00002340                Reset_Handler
+                0x00002350       0x58 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
+                0x00002350                Reset_Handler
  .text.SysTick_Handler
-                0x00002398       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
-                0x00002398                SysTick_Handler
+                0x000023a8       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
+                0x000023a8                SysTick_Handler
  .text.USB_SetHandler
-                0x000023a8        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
-                0x000023a8                USB_SetHandler
- .text.millis   0x000023b4        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
-                0x000023b4                millis
- .text.delay    0x000023c0       0x20 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
-                0x000023c0                delay
+                0x000023b8        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
+                0x000023b8                USB_SetHandler
+ .text.millis   0x000023c4        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
+                0x000023c4                millis
+ .text.delay    0x000023d0       0x20 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
+                0x000023d0                delay
  .text.SysTick_DefaultHandler
-                0x000023e0       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
-                0x000023e0                SysTick_DefaultHandler
- .text.__empty  0x000023f4        0x2 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
-                0x000023f4                yield
- .text.__false  0x000023f6        0x4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
-                0x000023f6                sysTickHook
- *fill*         0x000023fa        0x2 
+                0x000023f0       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
+                0x000023f0                SysTick_DefaultHandler
+ .text.__empty  0x00002404        0x2 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
+                0x00002404                yield
+ .text.__false  0x00002406        0x4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
+                0x00002406                sysTickHook
+ *fill*         0x0000240a        0x2 
  .text.SystemInit
-                0x000023fc      0x16c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
-                0x000023fc                SystemInit
- .text.init     0x00002568       0xe4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
-                0x00002568                init
+                0x0000240c      0x16c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
+                0x0000240c                SystemInit
+ .text.init     0x00002578       0xe4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
+                0x00002578                init
  .text.analogReference
-                0x0000264c       0x5c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
-                0x0000264c                analogReference
- .text.pinMode  0x000026a8       0xb8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
-                0x000026a8                pinMode
+                0x0000265c       0x5c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
+                0x0000265c                analogReference
+ .text.pinMode  0x000026b8       0xb8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
+                0x000026b8                pinMode
  .text.digitalWrite
-                0x00002760       0x44 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
-                0x00002760                digitalWrite
+                0x00002770       0x44 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
+                0x00002770                digitalWrite
  .text.pinPeripheral
-                0x000027a4       0xc4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
-                0x000027a4                pinPeripheral
+                0x000027b4       0xc4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
+                0x000027b4                pinPeripheral
  .text._Z11initVariantv
-                0x00002868        0x2 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
-                0x00002868                initVariant()
- *fill*         0x0000286a        0x2 
+                0x00002878        0x2 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
+                0x00002878                initVariant()
+ *fill*         0x0000287a        0x2 
  .text.startup.main
-                0x0000286c       0x3c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
-                0x0000286c                main
+                0x0000287c       0x3c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
+                0x0000287c                main
  .text._ZN5Print5writeEPKhj
-                0x000028a8       0x28 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
-                0x000028a8                Print::write(unsigned char const*, unsigned int)
+                0x000028b8       0x28 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+                0x000028b8                Print::write(unsigned char const*, unsigned int)
  .text._ZN5Print5writeEPKc
-                0x000028d0       0x1c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
-                0x000028d0                Print::write(char const*)
+                0x000028e0       0x1c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+                0x000028e0                Print::write(char const*)
  .text._ZN5Print5printEPKc
-                0x000028ec        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
-                0x000028ec                Print::print(char const*)
+                0x000028fc        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+                0x000028fc                Print::print(char const*)
  .text._ZN5Print7printlnEv
-                0x000028f4       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
-                0x000028f4                Print::println()
+                0x00002904       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+                0x00002904                Print::println()
  .text._ZN5Print7printlnEPKc
-                0x00002904       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
-                0x00002904                Print::println(char const*)
+                0x00002914       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+                0x00002914                Print::println(char const*)
  .text._ZN5Print11printNumberEmh
-                0x00002918       0x4e C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
-                0x00002918                Print::printNumber(unsigned long, unsigned char)
+                0x00002928       0x4e C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+                0x00002928                Print::printNumber(unsigned long, unsigned char)
  .text._ZN5Print5printEmi
-                0x00002966       0x18 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
-                0x00002966                Print::print(unsigned long, int)
+                0x00002976       0x18 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+                0x00002976                Print::print(unsigned long, int)
  .text._ZN5Print5printEhi
-                0x0000297e        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
-                0x0000297e                Print::print(unsigned char, int)
- *fill*         0x00002986        0x2 
+                0x0000298e        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+                0x0000298e                Print::print(unsigned char, int)
+ *fill*         0x00002996        0x2 
  .text.initiateReset
-                0x00002988        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
-                0x00002988                initiateReset
+                0x00002998        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
+                0x00002998                initiateReset
  .text.cancelReset
-                0x00002994       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
-                0x00002994                cancelReset
+                0x000029a4       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
+                0x000029a4                cancelReset
  .text.tickReset
-                0x000029a4       0x5c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
-                0x000029a4                tickReset
- .text._ZN7Serial_4peekEv
-                0x00002a00       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00002a00                Serial_::peek()
- .text._ZN7Serial_5writeEh
-                0x00002a2c       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00002a2c                Serial_::write(unsigned char)
- .text._ZN7Serial_6acceptEv
-                0x00002a40       0x68 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00002a40                Serial_::accept()
- .text._ZN7Serial_4readEv
-                0x00002aa8       0x68 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00002aa8                Serial_::read()
- .text._ZN7Serial_5flushEv
-                0x00002b10        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00002b10                Serial_::flush()
- .text._ZN7Serial_9availableEv
-                0x00002b1c       0x3c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00002b1c                Serial_::available()
- .text._ZN7Serial_5writeEPKhj
-                0x00002b58       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00002b58                Serial_::write(unsigned char const*, unsigned int)
- .text._Z16CDC_GetInterfacePh
-                0x00002b84       0x1c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00002b84                CDC_GetInterface(unsigned char*)
- .text._Z9CDC_SetupR8USBSetup
-                0x00002ba0       0x80 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00002ba0                CDC_Setup(USBSetup&)
- .text._ZN7Serial_5beginEm
-                0x00002c20        0x2 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00002c20                Serial_::begin(unsigned long)
- *fill*         0x00002c22        0x2 
- .text._ZN7Serial_cvbEv
-                0x00002c24       0x28 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00002c24                Serial_::operator bool()
- .text.startup._GLOBAL__sub_I_cdc_rx_buffer
-                0x00002c4c       0x24 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
- .text._ZN14USBDeviceClass6initEPEmm.part.1
-                0x00002c70       0x80 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .text._ZN20USBDevice_SAMD21G18x5resetEv
-                0x00002cf0       0x28 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00002cf0                USBDevice_SAMD21G18x::reset()
- .text._ZN20USBDevice_SAMD21G18x9calibrateEv
-                0x00002d18       0x5c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00002d18                USBDevice_SAMD21G18x::calibrate()
- .text._ZN14USBDeviceClass14SendInterfacesEPm
-                0x00002d74       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00002d74                USBDeviceClass::SendInterfaces(unsigned long*)
- .text._ZN14USBDeviceClass4initEv
-                0x00002da0       0xf0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00002da0                USBDeviceClass::init()
- .text._ZN14USBDeviceClass6attachEv
-                0x00002e90       0x34 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00002e90                USBDeviceClass::attach()
- .text._ZN14USBDeviceClass10setAddressEm
-                0x00002ec4       0x48 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00002ec4                USBDeviceClass::setAddress(unsigned long)
- .text._ZN14USBDeviceClass25handleClassInterfaceSetupER8USBSetup
-                0x00002f0c       0x40 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00002f0c                USBDeviceClass::handleClassInterfaceSetup(USBSetup&)
- .text._ZN14USBDeviceClass6initEPEmm
-                0x00002f4c       0xe4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00002f4c                USBDeviceClass::initEP(unsigned long, unsigned long)
- .text._ZN14USBDeviceClass13initEndpointsEv
-                0x00003030       0x24 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00003030                USBDeviceClass::initEndpoints()
- .text._ZN14USBDeviceClass5flushEm
-                0x00003054       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00003054                USBDeviceClass::flush(unsigned long)
- .text._ZN14USBDeviceClass9availableEm
-                0x00003080       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00003080                USBDeviceClass::available(unsigned long)
- .text._ZN14USBDeviceClass14armRecvCtrlOUTEm
-                0x00003094       0x60 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00003094                USBDeviceClass::armRecvCtrlOUT(unsigned long)
- .text._ZN14USBDeviceClass11recvControlEPvm
-                0x000030f4       0x3c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x000030f4                USBDeviceClass::recvControl(void*, unsigned long)
- .text._ZN14USBDeviceClass7armRecvEm
-                0x00003130       0x3c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00003130                USBDeviceClass::armRecv(unsigned long)
- .text._ZN14USBDeviceClass4recvEmPvm
-                0x0000316c       0xa8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x0000316c                USBDeviceClass::recv(unsigned long, void*, unsigned long)
- .text._ZN14USBDeviceClass4sendEmPKvm
-                0x00003214       0xb4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00003214                USBDeviceClass::send(unsigned long, void const*, unsigned long)
- .text._ZN14USBDeviceClass7armSendEmPKvm
-                0x000032c8       0x48 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x000032c8                USBDeviceClass::armSend(unsigned long, void const*, unsigned long)
- .text._ZN14USBDeviceClass11sendControlEPKvm
-                0x00003310       0x58 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00003310                USBDeviceClass::sendControl(void const*, unsigned long)
- .text._ZN14USBDeviceClass20sendStringDescriptorEPKhh
-                0x00003368       0x68 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00003368                USBDeviceClass::sendStringDescriptor(unsigned char const*, unsigned char)
- .text._ZN14USBDeviceClass12packMessagesEb.part.3
-                0x000033d0       0x20 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .text._ZN14USBDeviceClass17sendConfigurationEm
-                0x000033f0       0x90 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x000033f0                USBDeviceClass::sendConfiguration(unsigned long)
- .text._ZN14USBDeviceClass14sendDescriptorER8USBSetup
-                0x00003480       0xb4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00003480                USBDeviceClass::sendDescriptor(USBSetup&)
- .text._ZN14USBDeviceClass19handleStandardSetupER8USBSetup
-                0x00003534      0x11c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00003534                USBDeviceClass::handleStandardSetup(USBSetup&)
- .text.startup._GLOBAL__sub_I__ZN20USBDevice_SAMD21G18x5resetEv
-                0x00003650       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .text._ZN14USBDeviceClass14handleEndpointEh
-                0x00003660       0x5c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x00003660                USBDeviceClass::handleEndpoint(unsigned char)
- .text._ZN14USBDeviceClass10ISRHandlerEv
-                0x000036bc      0x140 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x000036bc                USBDeviceClass::ISRHandler()
- .text.UDD_Handler
-                0x000037fc       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                0x000037fc                UDD_Handler
- .text.SERCOM0_Handler
-                0x0000380c       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
-                0x0000380c                SERCOM0_Handler
- .text.SERCOM5_Handler
-                0x0000381c       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
-                0x0000381c                SERCOM5_Handler
- .text.startup._GLOBAL__sub_I_g_APinDescription
-                0x0000382c       0x94 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
- .text._ZN6SERCOMC2EP6Sercom
-                0x000038c0        0x4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x000038c0                SERCOM::SERCOM(Sercom*)
-                0x000038c0                SERCOM::SERCOM(Sercom*)
- .text._ZN6SERCOM9initFrameE18SercomUartCharSize15SercomDataOrder16SercomParityMode19SercomNumberStopBit
-                0x000038c4       0x38 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x000038c4                SERCOM::initFrame(SercomUartCharSize, SercomDataOrder, SercomParityMode, SercomNumberStopBit)
- .text._ZN6SERCOM8initPadsE15SercomUartTXPad11SercomRXPad
-                0x000038fc       0x26 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x000038fc                SERCOM::initPads(SercomUartTXPad, SercomRXPad)
- .text._ZN6SERCOM9resetUARTEv
-                0x00003922       0x1c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x00003922                SERCOM::resetUART()
- .text._ZN6SERCOM10enableUARTEv
-                0x0000393e       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x0000393e                SERCOM::enableUART()
- .text._ZN6SERCOM9flushUARTEv
-                0x00003952        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x00003952                SERCOM::flushUART()
- .text._ZN6SERCOM15clearStatusUARTEv
-                0x0000395c        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x0000395c                SERCOM::clearStatusUART()
- .text._ZN6SERCOM17availableDataUARTEv
-                0x00003964        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x00003964                SERCOM::availableDataUART()
- .text._ZN6SERCOM11isUARTErrorEv
-                0x0000396e        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x0000396e                SERCOM::isUARTError()
- .text._ZN6SERCOM20acknowledgeUARTErrorEv
-                0x00003976        0xe C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x00003976                SERCOM::acknowledgeUARTError()
- .text._ZN6SERCOM12readDataUARTEv
-                0x00003984        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x00003984                SERCOM::readDataUART()
- .text._ZN6SERCOM13writeDataUARTEh
-                0x0000398c        0xe C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x0000398c                SERCOM::writeDataUART(unsigned char)
- *fill*         0x0000399a        0x2 
- .text._ZN6SERCOM13initClockNVICEv
-                0x0000399c       0xac C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x0000399c                SERCOM::initClockNVIC()
- .text._ZN6SERCOM8initUARTE14SercomUartMode20SercomUartSampleRatem
-                0x00003a48       0x6c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                0x00003a48                SERCOM::initUART(SercomUartMode, SercomUartSampleRate, unsigned long)
+                0x000029b4       0x5c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
+                0x000029b4                tickReset
  .text._ZN4UartcvbEv
-                0x00003ab4        0x4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003ab4                Uart::operator bool()
+                0x00002a10        0x4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002a10                Uart::operator bool()
  .text._ZN4Uart5beginEm
-                0x00003ab8        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003ab8                Uart::begin(unsigned long)
+                0x00002a14        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002a14                Uart::begin(unsigned long)
  .text._ZN4Uart3endEv
-                0x00003ac4       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003ac4                Uart::end()
+                0x00002a20       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002a20                Uart::end()
  .text._ZN4Uart5flushEv
-                0x00003ad8        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003ad8                Uart::flush()
+                0x00002a34        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002a34                Uart::flush()
  .text._ZN4Uart9availableEv
-                0x00003ae2        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003ae2                Uart::available()
+                0x00002a3e        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002a3e                Uart::available()
  .text._ZN4Uart4peekEv
-                0x00003aec        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003aec                Uart::peek()
+                0x00002a48        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002a48                Uart::peek()
  .text._ZN4Uart4readEv
-                0x00003af6        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003af6                Uart::read()
+                0x00002a52        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002a52                Uart::read()
  .text._ZN4Uart5writeEh
-                0x00003b00        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003b00                Uart::write(unsigned char)
+                0x00002a5c        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002a5c                Uart::write(unsigned char)
  .text._ZN4UartC2EP6SERCOMhh11SercomRXPad15SercomUartTXPad
-                0x00003b0c       0x48 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003b0c                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
-                0x00003b0c                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
+                0x00002a68       0x48 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002a68                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
+                0x00002a68                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
  .text._ZN4Uart10IrqHandlerEv
-                0x00003b54       0x36 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003b54                Uart::IrqHandler()
+                0x00002ab0       0x36 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002ab0                Uart::IrqHandler()
  .text._ZN4Uart16extractNbStopBitEt
-                0x00003b8a        0xe C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003b8a                Uart::extractNbStopBit(unsigned short)
+                0x00002ae6        0xe C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002ae6                Uart::extractNbStopBit(unsigned short)
  .text._ZN4Uart15extractCharSizeEt
-                0x00003b98       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003b98                Uart::extractCharSize(unsigned short)
+                0x00002af4       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002af4                Uart::extractCharSize(unsigned short)
  .text._ZN4Uart13extractParityEt
-                0x00003bc4       0x18 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003bc4                Uart::extractParity(unsigned short)
+                0x00002b20       0x18 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002b20                Uart::extractParity(unsigned short)
  .text._ZN4Uart5beginEmt
-                0x00003bdc       0x88 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x00003bdc                Uart::begin(unsigned long, unsigned short)
- .text._ZN13PluggableUSB_12getInterfaceEPh
-                0x00003c64       0x2a C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
-                0x00003c64                PluggableUSB_::getInterface(unsigned char*)
- .text._ZN13PluggableUSB_13getDescriptorER8USBSetup
-                0x00003c8e       0x20 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
-                0x00003c8e                PluggableUSB_::getDescriptor(USBSetup&)
- .text._ZN13PluggableUSB_12getShortNameEPc
-                0x00003cae       0x1e C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
-                0x00003cae                PluggableUSB_::getShortName(char*)
- .text._ZN13PluggableUSB_5setupER8USBSetup
-                0x00003ccc       0x24 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
-                0x00003ccc                PluggableUSB_::setup(USBSetup&)
- .text._Z12PluggableUSBv
-                0x00003cf0       0x24 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
-                0x00003cf0                PluggableUSB()
+                0x00002b38       0x88 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00002b38                Uart::begin(unsigned long, unsigned short)
+ .text._ZN7Serial_4peekEv
+                0x00002bc0       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00002bc0                Serial_::peek()
+ .text._ZN7Serial_5writeEh
+                0x00002bec       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00002bec                Serial_::write(unsigned char)
+ .text._ZN7Serial_6acceptEv
+                0x00002c00       0x68 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00002c00                Serial_::accept()
+ .text._ZN7Serial_4readEv
+                0x00002c68       0x68 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00002c68                Serial_::read()
+ .text._ZN7Serial_5flushEv
+                0x00002cd0        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00002cd0                Serial_::flush()
+ .text._ZN7Serial_9availableEv
+                0x00002cdc       0x3c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00002cdc                Serial_::available()
+ .text._ZN7Serial_5writeEPKhj
+                0x00002d18       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00002d18                Serial_::write(unsigned char const*, unsigned int)
+ .text._Z16CDC_GetInterfacePh
+                0x00002d44       0x1c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00002d44                CDC_GetInterface(unsigned char*)
+ .text._Z9CDC_SetupR8USBSetup
+                0x00002d60       0x80 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00002d60                CDC_Setup(USBSetup&)
+ .text._ZN7Serial_5beginEm
+                0x00002de0        0x2 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00002de0                Serial_::begin(unsigned long)
+ *fill*         0x00002de2        0x2 
+ .text._ZN7Serial_cvbEv
+                0x00002de4       0x28 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00002de4                Serial_::operator bool()
+ .text.startup._GLOBAL__sub_I_cdc_rx_buffer
+                0x00002e0c       0x24 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+ .text._ZN14USBDeviceClass6initEPEmm.part.1
+                0x00002e30       0x80 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .text._ZN20USBDevice_SAMD21G18x5resetEv
+                0x00002eb0       0x28 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00002eb0                USBDevice_SAMD21G18x::reset()
+ .text._ZN20USBDevice_SAMD21G18x9calibrateEv
+                0x00002ed8       0x5c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00002ed8                USBDevice_SAMD21G18x::calibrate()
+ .text._ZN14USBDeviceClass14SendInterfacesEPm
+                0x00002f34       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00002f34                USBDeviceClass::SendInterfaces(unsigned long*)
+ .text._ZN14USBDeviceClass4initEv
+                0x00002f60       0xf0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00002f60                USBDeviceClass::init()
+ .text._ZN14USBDeviceClass6attachEv
+                0x00003050       0x34 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00003050                USBDeviceClass::attach()
+ .text._ZN14USBDeviceClass10setAddressEm
+                0x00003084       0x48 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00003084                USBDeviceClass::setAddress(unsigned long)
+ .text._ZN14USBDeviceClass25handleClassInterfaceSetupER8USBSetup
+                0x000030cc       0x40 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x000030cc                USBDeviceClass::handleClassInterfaceSetup(USBSetup&)
+ .text._ZN14USBDeviceClass6initEPEmm
+                0x0000310c       0xe4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x0000310c                USBDeviceClass::initEP(unsigned long, unsigned long)
+ .text._ZN14USBDeviceClass13initEndpointsEv
+                0x000031f0       0x24 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x000031f0                USBDeviceClass::initEndpoints()
+ .text._ZN14USBDeviceClass5flushEm
+                0x00003214       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00003214                USBDeviceClass::flush(unsigned long)
+ .text._ZN14USBDeviceClass9availableEm
+                0x00003240       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00003240                USBDeviceClass::available(unsigned long)
+ .text._ZN14USBDeviceClass14armRecvCtrlOUTEm
+                0x00003254       0x60 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00003254                USBDeviceClass::armRecvCtrlOUT(unsigned long)
+ .text._ZN14USBDeviceClass11recvControlEPvm
+                0x000032b4       0x3c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x000032b4                USBDeviceClass::recvControl(void*, unsigned long)
+ .text._ZN14USBDeviceClass7armRecvEm
+                0x000032f0       0x3c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x000032f0                USBDeviceClass::armRecv(unsigned long)
+ .text._ZN14USBDeviceClass4recvEmPvm
+                0x0000332c       0xa8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x0000332c                USBDeviceClass::recv(unsigned long, void*, unsigned long)
+ .text._ZN14USBDeviceClass4sendEmPKvm
+                0x000033d4       0xb4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x000033d4                USBDeviceClass::send(unsigned long, void const*, unsigned long)
+ .text._ZN14USBDeviceClass7armSendEmPKvm
+                0x00003488       0x48 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00003488                USBDeviceClass::armSend(unsigned long, void const*, unsigned long)
+ .text._ZN14USBDeviceClass11sendControlEPKvm
+                0x000034d0       0x58 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x000034d0                USBDeviceClass::sendControl(void const*, unsigned long)
+ .text._ZN14USBDeviceClass20sendStringDescriptorEPKhh
+                0x00003528       0x68 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00003528                USBDeviceClass::sendStringDescriptor(unsigned char const*, unsigned char)
+ .text._ZN14USBDeviceClass12packMessagesEb.part.3
+                0x00003590       0x20 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .text._ZN14USBDeviceClass17sendConfigurationEm
+                0x000035b0       0x90 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x000035b0                USBDeviceClass::sendConfiguration(unsigned long)
+ .text._ZN14USBDeviceClass14sendDescriptorER8USBSetup
+                0x00003640       0xb4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00003640                USBDeviceClass::sendDescriptor(USBSetup&)
+ .text._ZN14USBDeviceClass19handleStandardSetupER8USBSetup
+                0x000036f4      0x11c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x000036f4                USBDeviceClass::handleStandardSetup(USBSetup&)
+ .text.startup._GLOBAL__sub_I__ZN20USBDevice_SAMD21G18x5resetEv
+                0x00003810       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .text._ZN14USBDeviceClass14handleEndpointEh
+                0x00003820       0x5c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00003820                USBDeviceClass::handleEndpoint(unsigned char)
+ .text._ZN14USBDeviceClass10ISRHandlerEv
+                0x0000387c      0x140 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x0000387c                USBDeviceClass::ISRHandler()
+ .text.UDD_Handler
+                0x000039bc       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x000039bc                UDD_Handler
+ .text.SERCOM0_Handler
+                0x000039cc       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
+                0x000039cc                SERCOM0_Handler
+ .text.SERCOM5_Handler
+                0x000039dc       0x10 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
+                0x000039dc                SERCOM5_Handler
+ .text.startup._GLOBAL__sub_I_g_APinDescription
+                0x000039ec       0x94 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
  .text._ZN10RingBufferC2Ev
-                0x00003d14       0x16 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
-                0x00003d14                RingBuffer::RingBuffer()
-                0x00003d14                RingBuffer::RingBuffer()
+                0x00003a80       0x16 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+                0x00003a80                RingBuffer::RingBuffer()
+                0x00003a80                RingBuffer::RingBuffer()
  .text._ZN10RingBuffer10store_charEh
-                0x00003d2a       0x16 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
-                0x00003d2a                RingBuffer::store_char(unsigned char)
+                0x00003a96       0x16 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+                0x00003a96                RingBuffer::store_char(unsigned char)
  .text._ZN10RingBuffer5clearEv
-                0x00003d40        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
-                0x00003d40                RingBuffer::clear()
+                0x00003aac        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+                0x00003aac                RingBuffer::clear()
  .text._ZN10RingBuffer9read_charEv
-                0x00003d48       0x1c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
-                0x00003d48                RingBuffer::read_char()
+                0x00003ab4       0x1c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+                0x00003ab4                RingBuffer::read_char()
  .text._ZN10RingBuffer9availableEv
-                0x00003d64        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
-                0x00003d64                RingBuffer::available()
+                0x00003ad0        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+                0x00003ad0                RingBuffer::available()
  .text._ZN10RingBuffer4peekEv
-                0x00003d70       0x12 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
-                0x00003d70                RingBuffer::peek()
- *fill*         0x00003d82        0x2 
- .text          0x00003d84       0x14 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
-                0x00003d84                __gnu_thumb1_case_uqi
- .text          0x00003d98       0x9c c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
-                0x00003d98                __aeabi_uidiv
-                0x00003d98                __udivsi3
-                0x00003e20                __aeabi_uidivmod
- .text          0x00003e34        0x4 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
-                0x00003e34                __aeabi_idiv0
-                0x00003e34                __aeabi_ldiv0
+                0x00003adc       0x12 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+                0x00003adc                RingBuffer::peek()
+ .text._ZN6SERCOMC2EP6Sercom
+                0x00003aee        0x4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003aee                SERCOM::SERCOM(Sercom*)
+                0x00003aee                SERCOM::SERCOM(Sercom*)
+ .text._ZN6SERCOM9initFrameE18SercomUartCharSize15SercomDataOrder16SercomParityMode19SercomNumberStopBit
+                0x00003af2       0x38 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003af2                SERCOM::initFrame(SercomUartCharSize, SercomDataOrder, SercomParityMode, SercomNumberStopBit)
+ .text._ZN6SERCOM8initPadsE15SercomUartTXPad11SercomRXPad
+                0x00003b2a       0x26 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003b2a                SERCOM::initPads(SercomUartTXPad, SercomRXPad)
+ .text._ZN6SERCOM9resetUARTEv
+                0x00003b50       0x1c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003b50                SERCOM::resetUART()
+ .text._ZN6SERCOM10enableUARTEv
+                0x00003b6c       0x14 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003b6c                SERCOM::enableUART()
+ .text._ZN6SERCOM9flushUARTEv
+                0x00003b80        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003b80                SERCOM::flushUART()
+ .text._ZN6SERCOM15clearStatusUARTEv
+                0x00003b8a        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003b8a                SERCOM::clearStatusUART()
+ .text._ZN6SERCOM17availableDataUARTEv
+                0x00003b92        0xa C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003b92                SERCOM::availableDataUART()
+ .text._ZN6SERCOM11isUARTErrorEv
+                0x00003b9c        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003b9c                SERCOM::isUARTError()
+ .text._ZN6SERCOM20acknowledgeUARTErrorEv
+                0x00003ba4        0xe C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003ba4                SERCOM::acknowledgeUARTError()
+ .text._ZN6SERCOM12readDataUARTEv
+                0x00003bb2        0x8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003bb2                SERCOM::readDataUART()
+ .text._ZN6SERCOM13writeDataUARTEh
+                0x00003bba        0xe C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003bba                SERCOM::writeDataUART(unsigned char)
+ .text._ZN6SERCOM13initClockNVICEv
+                0x00003bc8       0xac C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003bc8                SERCOM::initClockNVIC()
+ .text._ZN6SERCOM8initUARTE14SercomUartMode20SercomUartSampleRatem
+                0x00003c74       0x6c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x00003c74                SERCOM::initUART(SercomUartMode, SercomUartSampleRate, unsigned long)
+ .text._ZN13PluggableUSB_12getInterfaceEPh
+                0x00003ce0       0x2a C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
+                0x00003ce0                PluggableUSB_::getInterface(unsigned char*)
+ .text._ZN13PluggableUSB_13getDescriptorER8USBSetup
+                0x00003d0a       0x20 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
+                0x00003d0a                PluggableUSB_::getDescriptor(USBSetup&)
+ .text._ZN13PluggableUSB_12getShortNameEPc
+                0x00003d2a       0x1e C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
+                0x00003d2a                PluggableUSB_::getShortName(char*)
+ .text._ZN13PluggableUSB_5setupER8USBSetup
+                0x00003d48       0x24 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
+                0x00003d48                PluggableUSB_::setup(USBSetup&)
+ .text._Z12PluggableUSBv
+                0x00003d6c       0x24 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
+                0x00003d6c                PluggableUSB()
+ .text          0x00003d90       0x14 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+                0x00003d90                __gnu_thumb1_case_uqi
+ .text          0x00003da4       0x9c c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x00003da4                __aeabi_uidiv
+                0x00003da4                __udivsi3
+                0x00003e2c                __aeabi_uidivmod
+ .text          0x00003e40        0x4 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00003e40                __aeabi_idiv0
+                0x00003e40                __aeabi_ldiv0
  .text.__libc_init_array
-                0x00003e38       0x4c c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
-                0x00003e38                __libc_init_array
- .text.memcpy   0x00003e84       0x12 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy-stub.o)
-                0x00003e84                memcpy
- .text.memset   0x00003e96       0x10 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
-                0x00003e96                memset
- .text.strlen   0x00003ea6        0xe c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-strlen.o)
-                0x00003ea6                strlen
+                0x00003e44       0x4c c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+                0x00003e44                __libc_init_array
+ .text.memcpy   0x00003e90       0x12 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy-stub.o)
+                0x00003e90                memcpy
+ .text.memset   0x00003ea2       0x10 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+                0x00003ea2                memset
+ .text.strlen   0x00003eb2        0xe c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-strlen.o)
+                0x00003eb2                strlen
  *(.init)
- .init          0x00003eb4        0x4 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crti.o
-                0x00003eb4                _init
- .init          0x00003eb8        0x8 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
+ .init          0x00003ec0        0x4 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crti.o
+                0x00003ec0                _init
+ .init          0x00003ec4        0x8 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
  *(.fini)
- .fini          0x00003ec0        0x4 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crti.o
-                0x00003ec0                _fini
- .fini          0x00003ec4        0x8 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
+ .fini          0x00003ecc        0x4 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crti.o
+                0x00003ecc                _fini
+ .fini          0x00003ed0        0x8 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1351,63 +1349,63 @@ LOAD c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-
  *(.dtors)
  *(.rodata*)
  .rodata.str1.1
-                0x00003ecc       0x19 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
+                0x00003ed8       0x19 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
  .rodata.str1.1
-                0x00003ee5       0x58 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+                0x00003ef1       0x58 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
  .rodata.str1.1
-                0x00003f3d        0xe C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+                0x00003f49        0xe C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
                                  0x11 (size before relaxing)
- *fill*         0x00003f4b        0x5 
- .rodata._ZTV7Serial_
-                0x00003f50       0x28 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                0x00003f50                vtable for Serial_
- .rodata._ZL15STRING_LANGUAGE
-                0x00003f78        0x4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .rodata._ZL19STRING_MANUFACTURER
-                0x00003f7c        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .rodata._ZL21USB_DeviceDescriptorB
-                0x00003f88       0x12 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .rodata._ZL14STRING_PRODUCT
-                0x00003f9a        0xd C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- *fill*         0x00003fa7        0x1 
- .rodata.g_APinDescription
-                0x00003fa8      0x420 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
-                0x00003fa8                g_APinDescription
+ *fill*         0x00003f57        0x1 
  .rodata._ZTV4Uart
-                0x000043c8       0x30 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
-                0x000043c8                vtable for Uart
+                0x00003f58       0x30 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x00003f58                vtable for Uart
+ .rodata._ZTV7Serial_
+                0x00003f88       0x28 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00003f88                vtable for Serial_
+ .rodata._ZL15STRING_LANGUAGE
+                0x00003fb0        0x4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .rodata._ZL19STRING_MANUFACTURER
+                0x00003fb4        0xc C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .rodata._ZL21USB_DeviceDescriptorB
+                0x00003fc0       0x12 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .rodata._ZL14STRING_PRODUCT
+                0x00003fd2        0xd C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ *fill*         0x00003fdf        0x1 
+ .rodata.g_APinDescription
+                0x00003fe0      0x420 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
+                0x00003fe0                g_APinDescription
  *(.eh_frame*)
- .eh_frame      0x000043f8        0x0 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
- .eh_frame      0x000043f8        0x4 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtend.o
+ .eh_frame      0x00004400        0x0 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
+ .eh_frame      0x00004400        0x4 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtend.o
 
-.glue_7         0x000043fc        0x0
+.glue_7         0x00004404        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x000043fc        0x0
+.glue_7t        0x00004404        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x000043fc        0x0
+.vfp11_veneer   0x00004404        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x000043fc        0x0
+.v4_bx          0x00004404        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x000043fc        0x0
+.iplt           0x00004404        0x0
  .iplt          0x00000000        0x0 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
 
-.rel.dyn        0x000043fc        0x0
+.rel.dyn        0x00004404        0x0
  .rel.iplt      0x00000000        0x0 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000043fc                __exidx_start = .
+                0x00004404                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000043fc                __exidx_end = .
-                0x000043fc                __etext = .
+                0x00004404                __exidx_end = .
+                0x00004404                __etext = .
 
-.data           0x20000000       0xa4 load address 0x000043fc
+.data           0x20000000       0xa4 load address 0x00004404
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -1457,20 +1455,20 @@ LOAD c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-
                 0x200000a4                . = ALIGN (0x4)
                 0x200000a4                __data_end__ = .
 
-.igot.plt       0x200000a4        0x0 load address 0x000044a0
+.igot.plt       0x200000a4        0x0 load address 0x000044a8
  .igot.plt      0x00000000        0x0 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
 
-.bss            0x200000a4      0x80c load address 0x000044a0
+.bss            0x200000a4      0x80c load address 0x000044a8
                 0x200000a4                . = ALIGN (0x4)
                 0x200000a4                __bss_start__ = .
  *(.bss*)
  .bss           0x200000a4       0x1c c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
- .bss.__VMicro_GLastMillis7__
-                0x200000c0        0x4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
-                0x200000c0                __VMicro_GLastMillis7__
  .bss.__VisualMicro_DEBUG_1_HITCOUNTER__
+                0x200000c0        0x4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
+                0x200000c0                __VisualMicro_DEBUG_1_HITCOUNTER__
+ .bss.__VMicro_GLastMillis1__
                 0x200000c4        0x4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
-                0x200000c4                __VisualMicro_DEBUG_1_HITCOUNTER__
+                0x200000c4                __VMicro_GLastMillis1__
  .bss.MicroDebug
                 0x200000c8       0x3c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
                 0x200000c8                MicroDebug
@@ -1592,19 +1590,19 @@ OUTPUT(C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/
  .ARM.attributes
                 0x000002a2       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
  .ARM.attributes
-                0x000002d4       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x000002d4       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
  .ARM.attributes
-                0x00000306       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x00000306       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
  .ARM.attributes
-                0x00000338       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
+                0x00000338       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
  .ARM.attributes
-                0x0000036a       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x0000036a       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
  .ARM.attributes
-                0x0000039c       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x0000039c       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
  .ARM.attributes
-                0x000003ce       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
+                0x000003ce       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
  .ARM.attributes
-                0x00000400       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+                0x00000400       0x32 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
  .ARM.attributes
                 0x00000432       0x1e c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
  .ARM.attributes
@@ -1639,57 +1637,57 @@ OUTPUT(C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/
  .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
  .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
  .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
+ .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
  .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
  .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
  .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
- .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
- .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
  .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+ .comment       0x00000000       0x71 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
 
-.debug_info     0x00000000    0x29b50
- .debug_info    0x00000000     0x106d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
- .debug_info    0x0000106d     0x15ca C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
- .debug_info    0x00002637      0x4da C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
- .debug_info    0x00002b11      0x362 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
- .debug_info    0x00002e73       0x60 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
- .debug_info    0x00002ed3     0x2972 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
- .debug_info    0x00005845     0x1dcf C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
- .debug_info    0x00007614     0x4225 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
- .debug_info    0x0000b839      0xb64 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
- .debug_info    0x0000c39d      0xb78 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
- .debug_info    0x0000cf15      0x798 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
- .debug_info    0x0000d6ad     0x2638 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
- .debug_info    0x0000fce5      0x803 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
- .debug_info    0x000104e8     0x4613 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
- .debug_info    0x00014afb     0x6e15 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .debug_info    0x0001b910     0x5533 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
- .debug_info    0x00020e43     0x3a0e C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
- .debug_info    0x00024851     0x4793 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .debug_info    0x00028fe4      0x6f0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
- .debug_info    0x000296d4      0x47c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+.debug_info     0x00000000    0x29b94
+ .debug_info    0x00000000     0x10b1 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
+ .debug_info    0x000010b1     0x15ca C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+ .debug_info    0x0000267b      0x4da C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
+ .debug_info    0x00002b55      0x362 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
+ .debug_info    0x00002eb7       0x60 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
+ .debug_info    0x00002f17     0x2972 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
+ .debug_info    0x00005889     0x1dcf C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
+ .debug_info    0x00007658     0x4225 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
+ .debug_info    0x0000b87d      0xb64 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
+ .debug_info    0x0000c3e1      0xb78 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
+ .debug_info    0x0000cf59      0x798 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
+ .debug_info    0x0000d6f1     0x2638 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+ .debug_info    0x0000fd29      0x803 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
+ .debug_info    0x0001052c     0x4793 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .debug_info    0x00014cbf     0x4613 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+ .debug_info    0x000192d2     0x6e15 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .debug_info    0x000200e7     0x5533 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
+ .debug_info    0x0002561a      0x47c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .debug_info    0x00025a96     0x3a0e C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+ .debug_info    0x000294a4      0x6f0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
 
-.debug_abbrev   0x00000000     0x3ec8
- .debug_abbrev  0x00000000      0x35e C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
- .debug_abbrev  0x0000035e      0x420 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
- .debug_abbrev  0x0000077e      0x159 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
- .debug_abbrev  0x000008d7      0x158 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
- .debug_abbrev  0x00000a2f       0x47 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
- .debug_abbrev  0x00000a76      0x17a C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
- .debug_abbrev  0x00000bf0      0x273 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
- .debug_abbrev  0x00000e63      0x348 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
- .debug_abbrev  0x000011ab      0x1e5 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
- .debug_abbrev  0x00001390      0x21b C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
- .debug_abbrev  0x000015ab      0x216 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
- .debug_abbrev  0x000017c1      0x456 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
- .debug_abbrev  0x00001c17      0x216 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
- .debug_abbrev  0x00001e2d      0x795 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
- .debug_abbrev  0x000025c2      0x768 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .debug_abbrev  0x00002d2a      0x32b C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
- .debug_abbrev  0x00003055      0x48d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
- .debug_abbrev  0x000034e2      0x500 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .debug_abbrev  0x000039e2      0x2f1 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
- .debug_abbrev  0x00003cd3      0x1f5 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+.debug_abbrev   0x00000000     0x3ee5
+ .debug_abbrev  0x00000000      0x37b C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
+ .debug_abbrev  0x0000037b      0x420 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+ .debug_abbrev  0x0000079b      0x159 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
+ .debug_abbrev  0x000008f4      0x158 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
+ .debug_abbrev  0x00000a4c       0x47 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
+ .debug_abbrev  0x00000a93      0x17a C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
+ .debug_abbrev  0x00000c0d      0x273 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
+ .debug_abbrev  0x00000e80      0x348 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
+ .debug_abbrev  0x000011c8      0x1e5 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
+ .debug_abbrev  0x000013ad      0x21b C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
+ .debug_abbrev  0x000015c8      0x216 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
+ .debug_abbrev  0x000017de      0x456 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+ .debug_abbrev  0x00001c34      0x216 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
+ .debug_abbrev  0x00001e4a      0x500 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .debug_abbrev  0x0000234a      0x795 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+ .debug_abbrev  0x00002adf      0x768 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .debug_abbrev  0x00003247      0x32b C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
+ .debug_abbrev  0x00003572      0x1f5 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .debug_abbrev  0x00003767      0x48d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+ .debug_abbrev  0x00003bf4      0x2f1 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
 
 .debug_aranges  0x00000000      0x950
  .debug_aranges
@@ -1719,19 +1717,19 @@ OUTPUT(C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/
  .debug_aranges
                 0x000003f0       0x30 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
  .debug_aranges
-                0x00000420       0xd0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                0x00000420       0x88 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
  .debug_aranges
-                0x000004f0      0x130 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                0x000004a8       0xd0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
  .debug_aranges
-                0x00000620       0x30 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
+                0x00000578      0x130 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
  .debug_aranges
-                0x00000650      0x1d0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                0x000006a8       0x30 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
  .debug_aranges
-                0x00000820       0x88 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                0x000006d8       0x58 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
  .debug_aranges
-                0x000008a8       0x50 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
+                0x00000730      0x1d0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
  .debug_aranges
-                0x000008f8       0x58 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+                0x00000900       0x50 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
 
 .debug_ranges   0x00000000     0x1108
  .debug_ranges  0x00000000       0x18 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
@@ -1747,104 +1745,104 @@ OUTPUT(C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/
  .debug_ranges  0x00000350       0x18 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
  .debug_ranges  0x00000368      0x278 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
  .debug_ranges  0x000005e0       0x20 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
- .debug_ranges  0x00000600      0x150 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
- .debug_ranges  0x00000750      0x548 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .debug_ranges  0x00000c98       0x20 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
- .debug_ranges  0x00000cb8      0x290 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
- .debug_ranges  0x00000f48       0x78 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .debug_ranges  0x00000fc0       0xd0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
- .debug_ranges  0x00001090       0x78 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .debug_ranges  0x00000600       0x78 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .debug_ranges  0x00000678      0x150 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+ .debug_ranges  0x000007c8      0x548 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .debug_ranges  0x00000d10       0x20 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
+ .debug_ranges  0x00000d30       0x78 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .debug_ranges  0x00000da8      0x290 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+ .debug_ranges  0x00001038       0xd0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
 
-.debug_line     0x00000000     0x5dc9
- .debug_line    0x00000000      0x4d0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
- .debug_line    0x000004d0      0x73d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
- .debug_line    0x00000c0d      0x312 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
- .debug_line    0x00000f1f      0x314 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
- .debug_line    0x00001233       0xb0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
- .debug_line    0x000012e3      0x3c9 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
- .debug_line    0x000016ac      0x40e C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
- .debug_line    0x00001aba      0x4d2 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
- .debug_line    0x00001f8c      0x35d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
- .debug_line    0x000022e9      0x369 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
- .debug_line    0x00002652      0x2d6 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
- .debug_line    0x00002928      0x64b C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
- .debug_line    0x00002f73      0x383 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
- .debug_line    0x000032f6      0x6e0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
- .debug_line    0x000039d6      0xcce C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .debug_line    0x000046a4      0x304 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
- .debug_line    0x000049a8      0x97d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
- .debug_line    0x00005325      0x546 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .debug_line    0x0000586b      0x307 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
- .debug_line    0x00005b72      0x257 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+.debug_line     0x00000000     0x5dca
+ .debug_line    0x00000000      0x4d1 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
+ .debug_line    0x000004d1      0x73d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+ .debug_line    0x00000c0e      0x312 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
+ .debug_line    0x00000f20      0x314 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
+ .debug_line    0x00001234       0xb0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
+ .debug_line    0x000012e4      0x3c9 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
+ .debug_line    0x000016ad      0x40e C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
+ .debug_line    0x00001abb      0x4d2 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
+ .debug_line    0x00001f8d      0x35d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
+ .debug_line    0x000022ea      0x369 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
+ .debug_line    0x00002653      0x2d6 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
+ .debug_line    0x00002929      0x64b C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+ .debug_line    0x00002f74      0x383 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
+ .debug_line    0x000032f7      0x546 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .debug_line    0x0000383d      0x6e0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+ .debug_line    0x00003f1d      0xcce C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .debug_line    0x00004beb      0x304 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
+ .debug_line    0x00004eef      0x257 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .debug_line    0x00005146      0x97d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+ .debug_line    0x00005ac3      0x307 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
 
 .debug_str      0x00000000     0x8948
- .debug_str     0x00000000      0xb85 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
-                                0xd16 (size before relaxing)
- .debug_str     0x00000b85      0x1e6 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+ .debug_str     0x00000000      0xb96 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
+                                0xd27 (size before relaxing)
+ .debug_str     0x00000b96      0x1e6 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
                                 0xb37 (size before relaxing)
- .debug_str     0x00000d6b      0x4c3 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
+ .debug_str     0x00000d7c      0x4c3 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
                                 0x5ef (size before relaxing)
- .debug_str     0x0000122e       0xe8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
+ .debug_str     0x0000123f       0xe8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
                                 0x2c5 (size before relaxing)
- .debug_str     0x00001316       0x78 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
+ .debug_str     0x00001327       0x78 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
                                 0x137 (size before relaxing)
- .debug_str     0x0000138e      0x91b C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
+ .debug_str     0x0000139f      0x91b C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
                                 0xd63 (size before relaxing)
- .debug_str     0x00001ca9      0x372 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
+ .debug_str     0x00001cba      0x372 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
                                 0xbfa (size before relaxing)
- .debug_str     0x0000201b      0xb48 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
+ .debug_str     0x0000202c      0xb48 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
                                0x15ac (size before relaxing)
- .debug_str     0x00002b63       0x7c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
+ .debug_str     0x00002b74       0x7c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
                                 0x966 (size before relaxing)
- .debug_str     0x00002bdf       0x7c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
+ .debug_str     0x00002bf0       0x7c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
                                 0x979 (size before relaxing)
- .debug_str     0x00002c5b      0x699 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
+ .debug_str     0x00002c6c      0x699 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
                                 0x92b (size before relaxing)
- .debug_str     0x000032f4      0xc44 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+ .debug_str     0x00003305      0xc44 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
                                 0xf7a (size before relaxing)
- .debug_str     0x00003f38      0x19c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
+ .debug_str     0x00003f49      0x19c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
                                 0x5ac (size before relaxing)
- .debug_str     0x000040d4     0x101a C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
-                               0x2833 (size before relaxing)
- .debug_str     0x000050ee     0x1b3d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
-                               0x3846 (size before relaxing)
- .debug_str     0x00006c2b     0x1858 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
-                               0x2ebf (size before relaxing)
- .debug_str     0x00008483      0x1c1 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
-                               0x21fc (size before relaxing)
- .debug_str     0x00008644      0x1eb C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .debug_str     0x000040e5     0x1afd C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
                                0x32d0 (size before relaxing)
- .debug_str     0x0000882f       0x9d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
-                                0x5da (size before relaxing)
- .debug_str     0x000088cc       0x7c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .debug_str     0x00005be2      0xb77 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+                               0x2833 (size before relaxing)
+ .debug_str     0x00006759     0x1b3d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+                               0x3846 (size before relaxing)
+ .debug_str     0x00008296      0x3e1 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
+                               0x2ebf (size before relaxing)
+ .debug_str     0x00008677       0x7c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
                                 0x383 (size before relaxing)
+ .debug_str     0x000086f3      0x1b8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+                               0x21fc (size before relaxing)
+ .debug_str     0x000088ab       0x9d C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
+                                0x5da (size before relaxing)
 
-.debug_frame    0x00000000     0x1740
- .debug_frame   0x00000000       0x44 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
- .debug_frame   0x00000044      0x380 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
- .debug_frame   0x000003c4       0x7c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
- .debug_frame   0x00000440       0x78 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
- .debug_frame   0x000004b8       0x40 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
- .debug_frame   0x000004f8       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
- .debug_frame   0x00000524       0x28 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
- .debug_frame   0x0000054c       0x90 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
- .debug_frame   0x000005dc       0x54 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
- .debug_frame   0x00000630       0x30 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
- .debug_frame   0x00000660       0x38 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
- .debug_frame   0x00000698      0x2f8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
- .debug_frame   0x00000990       0x40 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
- .debug_frame   0x000009d0      0x1d8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
- .debug_frame   0x00000ba8      0x388 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .debug_frame   0x00000f30       0x64 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
- .debug_frame   0x00000f94      0x440 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
- .debug_frame   0x000013d4      0x154 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .debug_frame   0x00001528       0xc4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
- .debug_frame   0x000015ec       0xa0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
- .debug_frame   0x0000168c       0x20 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
- .debug_frame   0x000016ac       0x2c c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
- .debug_frame   0x000016d8       0x28 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00001700       0x20 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
- .debug_frame   0x00001720       0x20 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-strlen.o)
+.debug_frame    0x00000000     0x1744
+ .debug_frame   0x00000000       0x48 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
+ .debug_frame   0x00000048      0x380 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
+ .debug_frame   0x000003c8       0x7c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
+ .debug_frame   0x00000444       0x78 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(delay.c.o)
+ .debug_frame   0x000004bc       0x40 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(hooks.c.o)
+ .debug_frame   0x000004fc       0x2c C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(startup.c.o)
+ .debug_frame   0x00000528       0x28 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring.c.o)
+ .debug_frame   0x00000550       0x90 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_analog.c.o)
+ .debug_frame   0x000005e0       0x54 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
+ .debug_frame   0x00000634       0x30 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
+ .debug_frame   0x00000664       0x38 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(main.cpp.o)
+ .debug_frame   0x0000069c      0x2f8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
+ .debug_frame   0x00000994       0x40 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Reset.cpp.o)
+ .debug_frame   0x000009d4      0x154 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .debug_frame   0x00000b28      0x1d8 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+ .debug_frame   0x00000d00      0x388 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .debug_frame   0x00001088       0x64 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(variant.cpp.o)
+ .debug_frame   0x000010ec       0xa0 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .debug_frame   0x0000118c      0x440 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+ .debug_frame   0x000015cc       0xc4 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
+ .debug_frame   0x00001690       0x20 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x000016b0       0x2c c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+ .debug_frame   0x000016dc       0x28 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00001704       0x20 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+ .debug_frame   0x00001724       0x20 c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-strlen.o)
 
 .debug_loc      0x00000000     0x6059
  .debug_loc     0x00000000      0xdff C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\VM_DBG\VM_DBG.cpp.o
@@ -1856,12 +1854,12 @@ OUTPUT(C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/
  .debug_loc     0x000014cb      0x130 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_digital.c.o)
  .debug_loc     0x000015fb      0x123 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(wiring_private.c.o)
  .debug_loc     0x0000171e     0x1173 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Print.cpp.o)
- .debug_loc     0x00002891      0x605 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
- .debug_loc     0x00002e96     0x1f13 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
- .debug_loc     0x00004da9      0xa76 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
- .debug_loc     0x0000581f      0x409 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
- .debug_loc     0x00005c28      0x258 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
- .debug_loc     0x00005e80      0x1d9 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .debug_loc     0x00002891      0x409 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+ .debug_loc     0x00002c9a      0x605 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(CDC.cpp.o)
+ .debug_loc     0x0000329f     0x1f13 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(USBCore.cpp.o)
+ .debug_loc     0x000051b2      0x1d9 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(RingBuffer.cpp.o)
+ .debug_loc     0x0000538b      0xa76 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(SERCOM.cpp.o)
+ .debug_loc     0x00005e01      0x258 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(PluggableUSB.cpp.o)
 
 Cross Reference Table
 
@@ -2127,6 +2125,7 @@ Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad) 
 Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad) C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
 Uart::available()                                 C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
 Uart::begin(unsigned long)                        C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
+                                                  C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
 Uart::begin(unsigned long, unsigned short)        C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
 Uart::end()                                       C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
 Uart::extractCharSize(unsigned short)             C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(Uart.cpp.o)
@@ -2188,7 +2187,7 @@ _CDC_GetInterfaceLength()                         C:\Users\user\AppData\Local\Te
 _Jv_RegisterClasses                               c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
 _PathLocale                                       c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-locale.o)
 __StackTop                                        C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native/core.a(cortex_handlers.c.o)
-__VMicro_GLastMillis7__                           C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
+__VMicro_GLastMillis1__                           C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
 __VisualMicro_DEBUG_1_HITCOUNTER__                C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
 __VisualMicro_DEBUG_1_HITCOUNTER___COMPLETE       C:\Users\user\AppData\Local\Temp\VMicroBuilds\sketch\arduino_zero_native\sketch.cpp.o
 __aeabi_cdcmpeq                                   c:/users/user/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_arm_cmpdf2.o)

@@ -27,8 +27,16 @@ _Debugging Procedure_
 15) Uploaded Atmel SAM-BA bootloader. Then rebuilt and executed original LED blink project, still using SAM-ICE. Still works.
 16) Built and uploaded LED blink Arduino Zero sketch with Atmel Studio 7, through "Native USB Port", having uploaded SAM-BA bootloader. Connected to serial port. No data or debugging information.
 17) Stripped out pin toggle code from sketch, leaving just Serial/SerialUSB statements. Still, no data received.
+
 18) Uploaded Arduino Zero bootloader to an "Arduino M0" board. Uploaded sketch with "Arduino.cc" IDE. Still, no data received.
 19) Essentially restored "Arduino M0" firmware. Uploaded sketch with "Arduino.org" IDE. Still, no data received. Sketch itself now considered highly suspect.
+20) After adding obvious "Serial.begin", Arduino M0 sketch works exactly as expected, with port manipulation.
+21) With same modification, success is achieved by uploaded Arduino Zero bootloader to an "Arduino M0" board, then uploading sketch with "Arduino.cc" IDE. Blinking LED and serial data are working normally.
+
+22) Returned to original hardware.
+23) Uploaded Arduino Zero bootloader. Non-functional, no USB presence.
+24) Uploaded Atmel SAM-BA bootloaders.
+25) Uploaded corrected sketch through Arduino IDE, through USB, just like an Arduino Zero. Still, no data received.
 
 
 _Sketch_
@@ -46,6 +54,8 @@ const uint32_t  PinMASK = (1ul << PORT_NUMBER);   // Generate bit mask, binary o
 // the setup function runs once when you press reset or power the board
 void setup()
 {
+  Serial.begin(115200);
+  
   // initialize digital pin as an output.
   *dirPin = PinMASK;
 }
