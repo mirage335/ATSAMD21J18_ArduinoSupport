@@ -8,6 +8,11 @@ Schematic provided as ATSAMD21J18_Minimal_Schematic.pdf. Atmel Studio example "L
 Arduino has substantial community-written libraries, and is an open-source solution. If we can make this particular chip, ATSAMD21J18, work with the Arduino IDE, functionality beyond Arduino Mega will be available as a single $6 chip. Notable functionality includes 48MHz clock, 32bit math, 256kB ROM, extensively reconfigurable SERCOM interfaces, fast analog IO, onboard high-accuracy clocks, and minimal PCB requirements.
 
 
+_Development_
+
+https://github.com/mirage335/ArduinoCore-samd
+
+
 _Debugging Procedure_
 
 1) Created working LED toggle firmware in Atmel Studio 6, based on "port_pin_toggle_output_level(LED_0_PIN);".
@@ -54,6 +59,10 @@ _Debugging Procedure_
 35) Clock mechanism is apparently discovered to be set by both bootloader and sketch, as documented at https://forum.arduino.cc/index.php?topic=331052.0 . Correctly configuring the clock in both cases is now a high priority.
 
 36) Bootloader from SODAQ found to use OSC8M, as shown at https://github.com/SodaqMoja/SodaqCore-samd/blob/autonomo/bootloaders/zero/main.c#L58 . This explains why that bootloader works, then fails upon loading an Arduino sketch, which even for the SODAQ boards, is configured to rely on an external 32kHz crystal.
+
+37) Replaced references to XOSC32K with OSC32K, and removed XTALEN bit, in Arduino Zero bootloader board_init.c . Subsequently crashes during either Serial or USB init .
+38) Attempted to run modified Arduino Zero bootloader code on real "Arduino M0". Same result.
+39) Attempted to modify board_init.c to pass clock to an output pin for diagnosis. Unsuccessful pin muxing code placed in repository.
 
 _Sketch_
 
