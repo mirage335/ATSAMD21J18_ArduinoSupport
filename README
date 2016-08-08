@@ -5,7 +5,7 @@ The LED does not blink as expected when programmed by the Arduino IDE. Only prog
 
 Schematic provided as ATSAMD21J18_Minimal_Schematic.pdf. Atmel Studio example "LED_TOGGLE1/Debug/LED_TOGGLE1.hex" works, uploaded by SAM-ICE. Arduino example "sketch/Release/sketch.elf" should, but does not, work, regardless of upload method.
 
-Arduino has substantial community-written libraries, and is an open-source solution. If we can make this particular chip, ATSAMD21J18, work with the Arduino IDE, functionality beyond Arduino Mega will be available as a single $6 chip. Notable functionality includes 48MHz clock, 32bit math, 256kB ROM, extensively reconfigurable SERCOM interfaces, fast analog IO, onboard high-accuracy clocks, and minimal PCB requirements.
+Arduino has substantial community-written libraries, and is an open-source solution. If we can make this particular chip, ATSAMD21J18, work with the Arduino IDE, functionality beyond Arduino Mega will be available as a single $6 chip. Notable functionality includes 48MHz clock, 32bit math, 256kB ROM, extensively reconfigurable SERCOM interfaces, fast analog IO, onboard clocks, and minimal PCB requirements.
 
 
 _Development_
@@ -292,4 +292,4 @@ https://github.com/RIOT-OS/RIOT/commit/164721657dd74d355427418d85d47abfdd8b9637
 
 http://atmel.force.com/support/articles/en_US/FAQ/How-to-configure-DFLL48M-oscillator-as-main-clock-in-ASF-project-for-SAMR21-SAMD21-SAMD20-SAMD10-SAMD11
 
-
+http://forum.arduino.cc/index.php?topic=342697.5;imode
